@@ -1,0 +1,6 @@
+al = input()
+n = len(al)
+m = int(input()) % len(al)
+print(al[m:] + al[:m])
+print(al)
+print(al[-m:] + al[:-m])
